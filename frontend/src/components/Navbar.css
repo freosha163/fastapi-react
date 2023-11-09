@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('/Users/aleksejserstnev/Documents/repositories/fullstack/frontend/src/images/photo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+.nav {
+    width: 100%;
+    position: relative;
+    flex-shrink: 0;
+}
+
+.top-nav {
+    height: 52px;
+    background: #010101;
+}
+
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+    padding-top: 16px;
+}
+
+.contact-number {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 24px;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    padding-right: 8px;
+}
+
+.order-call {
+    color: var(--blue-color-100, #4F8FF0);
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-left: 24px;
+    width: 114px;
+    height: 21px;
+    padding-left: 55%;
+}
+
+.bottom-nav {
+    height: 82px;
+    background: rgba(34, 34, 34, 0.64);
+}
+
+.bottom-container {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    padding-left: 65%;
+    padding-top: 30px;
+}
+
+.nav-link {
+    color: var(--white-color-100, #FFF);
+    text-align: center;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--blue-color-100, #4F8FF0);
+}
